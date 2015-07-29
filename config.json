@@ -1,0 +1,23 @@
+{
+
+  "com_config":{
+    "ProjectName":"GrabTaxi_RoadBuilder",
+
+  },
+
+  "database": {
+    "postgre": {
+      "host": "192.168.56.101",
+      "user": "postgres",
+      "password": "123456",
+      "dbname": "grabtaxi",
+      "sslmode": "disable"
+    },
+    "mysql": {
+      "host": "192.168.56.101",
+      "user": "root",
+      "password": "root",
+      "dbname": "grabtaxi"
+    }
+  }
+}
